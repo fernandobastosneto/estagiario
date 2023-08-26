@@ -204,11 +204,11 @@ agent = initialize_agent(
 # def main():
 if authentication_status:
     authenticator.logout('Logout', 'main', key='unique_key')
-    st.header("AI research agent :bird:")
-    query = st.text_input("Research goal")
+    st.header("Estagiário particular 🐅")
+    query = st.text_input("Sobre o que você quer pesquisar?")
 
     if query:
-        st.write("Doing research for ", query)
+        st.write("Pesquisando ", query)
         result = agent({"input": query})
         st.info(result['output'])
     elif authentication_status is False:
