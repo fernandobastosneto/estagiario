@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    lailagalvao:
+      email: xxxxx
+      name: Laila Maia Galvão
+      password: $2b$12$M8rjDdi7JAA1E3gOqYxkUe3J/oWdpaeg.9TJ0lNtlFIdQ0lahtcEW
+    fernandobastos:
+      email: xxxx
+      name: Fernando Bastos
+      password: $2b$12$OZK07Rs31W3Q6w1KekGlUuvUP4rLA8Iyz74.MLrg9X6k0HdFeo6HC
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - melsby@gmail.com
