@@ -1,5 +1,3 @@
-import os
-from dotenv import load_dotenv
 import streamlit as st
 import streamlit_authenticator as stauth
 import yaml
